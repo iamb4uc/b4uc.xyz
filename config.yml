@@ -1,4 +1,4 @@
-baseURL: "" 
+baseURL: "https://b4uc.netlify.app" 
 languageCode: en-us
 title: B4UC
 theme: PaperMod
