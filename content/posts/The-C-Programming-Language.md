@@ -6,12 +6,7 @@ draft: false
 author: "Me"
 showToc: true
 TocOpen: false
-cover:
-    image: "https://m.media-amazon.com/images/I/411ejyE8obL._AC_SY780_.jpg"
-    alt: "book cover" 
-    caption: "The C Programming Language, 2nd Edition by Brian W. Kernighan and Dennis M. Ritchie"
 ---
-
 
 # The C Programming Language, 2nd edition
 

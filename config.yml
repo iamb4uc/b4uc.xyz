@@ -5,9 +5,17 @@ theme: PaperMod
 
 
 params:
-  homeInfoParams:
-    Title: "Hello!!"
-    Content: Welcome to this website.  
+  profileMode:
+    enabled: true
+    subtitle: Welcome!! this is a repository of my personal projects, works, CV, and other stuffs like blogs and tutorials. To know more about me visit [**About**](/about). 
+      To find blogs based to topics visit [**Tags**](/tags)
+      or visit [**Projects**](/projects) and [**CV**](/cv) to know more about works and achivements.
+    buttons:
+      - name: Archives
+        url: "/archives/"
+      - name: Topics
+        url: "/tags/"
+
 
 
   socialIcons:
@@ -21,6 +29,8 @@ params:
       url: "https://medium.com/@b4uc"
     - name: dev 
       url: "https://dev.to/iamb4uc"
+    - name: email
+      url: "mailto:b4uc@tuta.io"
 
 
   cover:
@@ -37,11 +47,23 @@ menu:
       name: Posts 
       url: /posts/
       weight: 10
+    - identifier: projects 
+      name: Projects 
+      url: /projects/
+      weight: 20
+    - identifier: tags 
+      name: Tags 
+      url: /tags/
+      weight: 30
     - identifier: archives 
       name: Archives
       url: /archives
-      weight: 20
+      weight: 40
     - identifier: about
       name: About
       url: /about
-      weight: 30
+      weight: 50
+    - identifier: donate
+      name: Donate
+      url: /donate
+      weight: 60

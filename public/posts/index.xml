@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on B4UC</title>
+    <link>https://iamb4uc.xyz/posts/</link>
+    <description>Recent content in Posts on B4UC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Jul 2022 19:51:50 +0530</lastBuildDate><atom:link href="https://iamb4uc.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Review: The C Programming Language</title>
+      <link>https://iamb4uc.xyz/posts/the-c-programming-language/</link>
+      <pubDate>Sun, 03 Jul 2022 19:51:50 +0530</pubDate>
+      
+      <guid>https://iamb4uc.xyz/posts/the-c-programming-language/</guid>
+      <description>The C Programming Language, 2nd edition </description>
+    </item>
+    
+    <item>
+      <title>Neovim Customization</title>
+      <link>https://iamb4uc.xyz/posts/nvim-customization/</link>
+      <pubDate>Sun, 03 Jul 2022 08:48:38 +0530</pubDate>
+      
+      <guid>https://iamb4uc.xyz/posts/nvim-customization/</guid>
+      <description>Why use vim over other text editors and IDEs? For me, I&amp;rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo.</description>
+    </item>
+    
+  </channel>
+</rss>
