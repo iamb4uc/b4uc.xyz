@@ -7,7 +7,7 @@ theme: PaperMod
 params:
   homeInfoParams:
     Title: "Hello!!"
-    Content: Welcome this project site. This website is created to test out some of my GO programming skills and my writting skills since I would be writting about tech and other stuff here. To know more about me visit the about section of this page. Hope I solved/helped your problems.
+    Content: Welcome this project site. This website is created to test out some of my programming skills and my writting skills since I would be writting about tech and other stuff here. To know more about me visit the about section of this page. Hope I solved/helped your problems.
   socialIcons:
     - name: github
       url: "https://github.com/iamb4uc"
