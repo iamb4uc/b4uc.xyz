@@ -7,7 +7,8 @@ theme: PaperMod
 params:
   homeInfoParams:
     Title: "Hello!!"
-    Content: Welcome this project site. This website is created to test out some of my programming skills and my writting skills since I would be writting about tech and other stuff here. To know more about me visit the about section of this page. Hope I solved/helped your problems.
+    Content: Welcome to this website.  
+
 
   socialIcons:
     - name: github
@@ -16,6 +17,10 @@ params:
       url: "https://mastodon.social/@b4uc"
     - name: telegram
       url: "https://t.me/susssywusssy"
+    - name: medium 
+      url: "https://medium.com/@b4uc"
+    - name: dev 
+      url: "https://dev.to/iamb4uc"
 
 
   cover:
@@ -28,15 +33,15 @@ params:
 
 menu:
   main:
-    - identifier: about
-      name: About Me
-      url: /about
-      weight: 10
     - identifier: posts 
       name: Posts 
       url: /posts/
-      weight: 20
+      weight: 10
     - identifier: archives 
       name: Archives
       url: /archives
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about
       weight: 30

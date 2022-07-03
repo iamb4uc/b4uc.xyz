@@ -1,5 +1,5 @@
 ---
-title: "Nvim Customization"
+title: "Neovim Customization"
 date: 2022-07-03T08:48:38+05:30
 draft: true
 tags: ["vim", "vi", "nvim", "ricing", "productivity"]
@@ -21,7 +21,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: img/vim.png
+    image: img/neovim.png
     alt: 'This is a post image'
     caption: 'How my vim looks'
 ---
