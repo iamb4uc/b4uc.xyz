@@ -60,15 +60,7 @@ menu:
       name: Archives
       url: /archives
       weight: 40
-    - identifier: cv
-      name: CV
-      url: /cv
-      weight: 50
     - identifier: about
       name: About
       url: /about
-      weight: 60
-    - identifier: donate
-      name: Donate
-      url: /donate
-      weight: 70
+      weight: 50
