@@ -7,6 +7,7 @@ theme: PaperMod
 params:
   profileMode:
     enabled: true
+    imageUrl: "img/profile.jpeg"
     subtitle: Welcome!! this is a repository of my personal projects, works, CV, and other stuffs like blogs and tutorials. To know more about me visit [**About**](/about). 
       To find blogs based to topics visit [**Tags**](/tags)
       or visit [**Projects**](/projects) and [**CV**](/cv) to know more about works and achivements.
@@ -59,11 +60,15 @@ menu:
       name: Archives
       url: /archives
       weight: 40
+    - identifier: cv
+      name: CV
+      url: /cv
+      weight: 50
     - identifier: about
       name: About
       url: /about
-      weight: 50
+      weight: 60
     - identifier: donate
       name: Donate
       url: /donate
-      weight: 60
+      weight: 70

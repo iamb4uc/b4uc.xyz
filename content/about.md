@@ -5,15 +5,6 @@ url: "/about/"
 summary: about me
 ---
 
-I am a computer science student that likes to tinker with software, hardware and anything tech related.  
-Following are my field of interests
-- Cybersecurity
-    - Penetration testing
-    - Malware Analysis
-    - Reverse Engineering
-- Programming
-    - C
-    - Rust
-    - Python
-    - Shell
-    - 
+![image](https://raw.githubusercontent.com/iamb4uc/home/main/images/shit.webp)
+
+I am a computer science student that likes to tinker with software, hardware and anything tech related. This website is a repository of my blogs, tutorials and other stuffs I feel like doing.
