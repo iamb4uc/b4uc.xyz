@@ -26,8 +26,6 @@ params:
       url: "https://mastodon.social/@b4uc"
     - name: telegram
       url: "https://t.me/susssywusssy"
-    - name: medium 
-      url: "https://medium.com/@b4uc"
     - name: dev 
       url: "https://dev.to/iamb4uc"
     - name: email
