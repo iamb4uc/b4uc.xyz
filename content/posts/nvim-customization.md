@@ -27,7 +27,7 @@ cover:
 ---
 
 # Why use vim and neovim over other text editors and IDEs?
-For me, I've always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo. But enough talking, lets start configuring our VIM/NVIM to make it more like an actual developing environment.  
+> For me, I've always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo. But enough talking, lets start configuring our VIM/NVIM to make it more like an actual developing environment.  
 
 **IMPORTANT:** Since I mainly use Neovim, some of the stuff written in this blog might not work for vim users, for them just avoid the once that are not compatible, if I find any alternatives to those plugins and setting, I will update the blogs with the details.
 
