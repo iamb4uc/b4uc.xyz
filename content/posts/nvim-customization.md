@@ -203,7 +203,7 @@ Now this plugin wont run without nodejs in your machine so follow these steps to
     xbps-install nodejs
     ```
 
-    **For Other Distos and operating systems visit [https://nodejs.org/en/download/package-manager/](https://nodejs.org/en/download/package-manager/#openbsd)**
+    **For Other Distos and operating systems visit [https://nodejs.org/en/download/package-manager/](https://nodejs.org/en/download/package-manager/)**
 
 2. Additional Packages
     Install yarn
