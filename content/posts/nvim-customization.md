@@ -34,7 +34,7 @@ For me, I've always loved minimalism and performance over ease of use and other 
 ## Step 1: Setting up the config files and directory for vim and neovim
 Follow the commands given below to make all the necessary files and directories for neovim
 
-```bash
+```
 cd
 mkdir -p ~/.config/nvim
 touch ~/.config/nvim/init.vim
@@ -132,7 +132,7 @@ Plug 'SirVer/ultisnips'                     " Code completion using snippets fro
 Plug 'honza/vim-snippets'                   " Provides snippets for ultisnips
 ```
 
-First of all add few keybinding to open up NERDTree and make vertical and horizontal splits in your ```init.nvim```.  
+First of all add few keybinding to open up NERDTree and make vertical and horizontal splits in your `init.nvim`.  
 ```vim
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
@@ -141,10 +141,11 @@ nnoremap <A-h> :vsplit<CR>
 nnoremap <A-k> :split<CR>
 ```
 
-After you've saved and exited the file now open up neovim run ```:PlugInstall```. This will install all the plugins in the plugged directory in ```.local/share/nvim/plugged/```.  
+After you've saved and exited the file now open up neovim run `:PlugInstall`. This will install all the plugins in the plugged directory in `.local/share/nvim/plugged/`.  
 
-Since we installed ```vim airline``` and ```vim colorschemes``` we can change the look and feel of neovim/vim. Find your favorite vim colorscheme [here](https://github.com/rafi/awesome-vim-colorschemes) also find your favorite airline theme [here](https://github.com/vim-airline/vim-airline-themes)  
+Since we installed `vim airline` and `vim colorschemes` we can change the look and feel of neovim/vim. Find your favorite vim colorscheme [here](https://github.com/rafi/awesome-vim-colorschemes) also find your favorite airline theme [here](https://github.com/vim-airline/vim-airline-themes)  
 For this blog, we will use the gruvbox theme along with the base16 airline theme. To make this permanent write these in your nvim config. 
+
 ```vim
 colorscheme gruvbox
 
@@ -156,6 +157,7 @@ let g:airline_theme='base16'
 ```
 
 Since we also have a plugin for autoindentation and indent lines. We have to add these lines to the config too.
+
 ```vim
 let g:indentLine_fileTypeExclude = ["help", "nerdtree", "diff"]
 let g:indentLine_fileTypeExclude = ["help", "nerdtree", "diff", "markdown"]
@@ -224,7 +226,7 @@ Now this plugin wont run without nodejs in your machine so follow these steps to
 ```
 pip install jedi
 ```
-3. Open up and nvim instance and run ```:CocInstall coc-python``` this will install the python module for Coc.
+3. Open up and nvim instance and run `:CocInstall coc-python` this will install the python module for Coc.
 
 **Follow this type of procedure to install all of your favorite language servers and have fun coding**  
 **Hope, this was helpfull to your if so them be sure to help me by either sharing or donating :)**
