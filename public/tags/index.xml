@@ -6,11 +6,11 @@
     <description>Recent content in Tags on B4UC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jul 2022 19:51:50 +0530</lastBuildDate><atom:link href="https://iamb4uc.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jul 2022 23:01:58 +0530</lastBuildDate><atom:link href="https://iamb4uc.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Book review</title>
+      <title>Book Review</title>
       <link>https://iamb4uc.xyz/tags/book-review/</link>
-      <pubDate>Sun, 03 Jul 2022 19:51:50 +0530</pubDate>
+      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
       
       <guid>https://iamb4uc.xyz/tags/book-review/</guid>
       <description></description>
@@ -19,36 +19,63 @@
     <item>
       <title>Books</title>
       <link>https://iamb4uc.xyz/tags/books/</link>
-      <pubDate>Sun, 03 Jul 2022 19:51:50 +0530</pubDate>
+      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
       
       <guid>https://iamb4uc.xyz/tags/books/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Learning</title>
-      <link>https://iamb4uc.xyz/tags/learning/</link>
-      <pubDate>Sun, 03 Jul 2022 19:51:50 +0530</pubDate>
+      <title>C</title>
+      <link>https://iamb4uc.xyz/tags/c/</link>
+      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
       
-      <guid>https://iamb4uc.xyz/tags/learning/</guid>
+      <guid>https://iamb4uc.xyz/tags/c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
       <link>https://iamb4uc.xyz/tags/programming/</link>
-      <pubDate>Sun, 03 Jul 2022 19:51:50 +0530</pubDate>
+      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
       
       <guid>https://iamb4uc.xyz/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>nvim</title>
-      <link>https://iamb4uc.xyz/tags/nvim/</link>
+      <title>Review</title>
+      <link>https://iamb4uc.xyz/tags/review/</link>
+      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
+      
+      <guid>https://iamb4uc.xyz/tags/review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://iamb4uc.xyz/tags/tech/</link>
+      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
+      
+      <guid>https://iamb4uc.xyz/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UNIX</title>
+      <link>https://iamb4uc.xyz/tags/unix/</link>
+      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
+      
+      <guid>https://iamb4uc.xyz/tags/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>neovim</title>
+      <link>https://iamb4uc.xyz/tags/neovim/</link>
       <pubDate>Sun, 03 Jul 2022 08:48:38 +0530</pubDate>
       
-      <guid>https://iamb4uc.xyz/tags/nvim/</guid>
+      <guid>https://iamb4uc.xyz/tags/neovim/</guid>
       <description></description>
     </item>
     
@@ -76,15 +103,6 @@
       <pubDate>Sun, 03 Jul 2022 08:48:38 +0530</pubDate>
       
       <guid>https://iamb4uc.xyz/tags/vi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vim</title>
-      <link>https://iamb4uc.xyz/tags/vim/</link>
-      <pubDate>Sun, 03 Jul 2022 08:48:38 +0530</pubDate>
-      
-      <guid>https://iamb4uc.xyz/tags/vim/</guid>
       <description></description>
     </item>
     

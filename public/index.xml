@@ -6,14 +6,23 @@
     <description>Recent content on B4UC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jul 2022 19:51:50 +0530</lastBuildDate><atom:link href="https://iamb4uc.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jul 2022 11:01:01 +0530</lastBuildDate><atom:link href="https://iamb4uc.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Book Review: The C Programming Language</title>
+      <title>Bspwm Gruvbox Rice</title>
+      <link>https://iamb4uc.xyz/projects/bspwm-gruvbox-rice/</link>
+      <pubDate>Mon, 04 Jul 2022 11:01:01 +0530</pubDate>
+      
+      <guid>https://iamb4uc.xyz/projects/bspwm-gruvbox-rice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BOOK REVIEW: The C Programming Language</title>
       <link>https://iamb4uc.xyz/posts/the-c-programming-language/</link>
-      <pubDate>Sun, 03 Jul 2022 19:51:50 +0530</pubDate>
+      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
       
       <guid>https://iamb4uc.xyz/posts/the-c-programming-language/</guid>
-      <description>The C Programming Language, 2nd edition </description>
+      <description>Book review is a series in which I will give my own opinion on book I read.</description>
     </item>
     
     <item>
@@ -22,7 +31,7 @@
       <pubDate>Sun, 03 Jul 2022 08:48:38 +0530</pubDate>
       
       <guid>https://iamb4uc.xyz/posts/nvim-customization/</guid>
-      <description>Why use vim over other text editors and IDEs? For me, I&amp;rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo.</description>
+      <description>Why use vim and neovim over other text editors and IDEs? For me, I&amp;rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo.</description>
     </item>
     
     <item>
@@ -34,6 +43,15 @@
       <description>about me</description>
     </item>
     
+    
+    <item>
+      <title>CV</title>
+      <link>https://iamb4uc.xyz/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iamb4uc.xyz/cv/</guid>
+      <description>My Resume</description>
+    </item>
     
   </channel>
 </rss>

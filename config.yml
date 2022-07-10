@@ -46,19 +46,19 @@ menu:
       name: Posts 
       url: /posts/
       weight: 10
-    - identifier: projects 
-      name: Projects 
-      url: /projects/
-      weight: 20
     - identifier: tags 
       name: Tags 
       url: /tags/
-      weight: 30
+      weight: 20
     - identifier: archives 
       name: Archives
       url: /archives
-      weight: 40
+      weight: 30
     - identifier: about
       name: About
       url: /about
+      weight: 40
+    - identifier: donate 
+      name: Donate 
+      url: /donate
       weight: 50

@@ -6,8 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Neovim Customization | B4UC</title>
-<meta name="keywords" content="vim, vi, nvim, ricing, productivity">
-<meta name="description" content="Why use vim over other text editors and IDEs? For me, I&rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo.">
+<meta name="keywords" content="neovim, vi, ricing, productivity">
+<meta name="description" content="Why use vim and neovim over other text editors and IDEs? For me, I&rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo.">
 <meta name="author" content="Me">
 <link rel="canonical" href="https://iamb4uc.xyz/to/page">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.d7fb4cbf980fe688a21621b06a795933c4e6bb2d4070ec940667af1715d84af2.css" integrity="sha256-1/tMv5gP5oiiFiGwanlZM8Tmuy1AcOyUBmevFxXYSvI=" rel="preload stylesheet" as="style">
@@ -57,7 +57,7 @@
 
     </style>
 </noscript><meta property="og:title" content="Neovim Customization" />
-<meta property="og:description" content="Why use vim over other text editors and IDEs? For me, I&rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo." />
+<meta property="og:description" content="Why use vim and neovim over other text editors and IDEs? For me, I&rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://iamb4uc.xyz/posts/nvim-customization/" />
 <meta property="og:image" content="https://iamb4uc.xyz/img/neovim.png" /><meta property="article:section" content="posts" />
@@ -67,7 +67,7 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://iamb4uc.xyz/img/neovim.png" />
 <meta name="twitter:title" content="Neovim Customization"/>
-<meta name="twitter:description" content="Why use vim over other text editors and IDEs? For me, I&rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo."/>
+<meta name="twitter:description" content="Why use vim and neovim over other text editors and IDEs? For me, I&rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo."/>
 
 
 <script type="application/ld+json">
@@ -96,12 +96,12 @@
   "@type": "BlogPosting",
   "headline": "Neovim Customization",
   "name": "Neovim Customization",
-  "description": "Why use vim over other text editors and IDEs? For me, I\u0026rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo.",
+  "description": "Why use vim and neovim over other text editors and IDEs? For me, I\u0026rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo.",
   "keywords": [
-    "vim", "vi", "nvim", "ricing", "productivity"
+    "neovim", "vi", "ricing", "productivity"
   ],
-  "articleBody": "Why use vim over other text editors and IDEs? For me, I’ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo. But enough talking, lets start configuring our VIM/NVIM to make it more like an actual developing environment.\n",
-  "wordCount" : "89",
+  "articleBody": "Why use vim and neovim over other text editors and IDEs? For me, I’ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo. But enough talking, lets start configuring our VIM/NVIM to make it more like an actual developing environment.\nIMPORTANT: Since I mainly use Neovim, some of the stuff written in this blog might not work for vim users, for them just avoid the once that are not compatible, if I find any alternatives to those plugins and setting, I will update the blogs with the details.\nStep 1: Setting up the config files and directory for vim and neovim Follow the commands given below to make all the necessary files and directories for neovim\ncd mkdir -p ~/.config/nvim touch ~/.config/nvim/init.vim The init.vim file is the config file that we will edit in this post to make our base neovim to look and act like an actual IDE.\nStep 2: Editing the init.vim file To edit this init.vim open the file with the text editor of your choice and paste the following text\n:set number :set relativenumber :set autoindent :set expandtab :set tabstop = 4 :set shiftwidth = 4 :set smarttab :set softtabstop = 4 These parameters set basic functionality for vim such as number lines, auto indentation, amd smart tabs. By default vim doesnt support mouse and its kinda normal to not use mouse since everything in vim can be done using the keyboard but if you are a soy and want to use mouse type this this too\n:set mouse = a For now we have done all the basic settings.\nStep 3: Adding a Plug-In Manager For this setup we will use Vim-Plug to manage our plugins.\nInstall Curl\nDebian-based\napt install curl Gentoo\nemerge curl OpenBSD\npkg_add curl Arch-based\npacman -S curl Void\nxbps-install -S curl Create the installation directories, download, and install Vim-Plug.\ncurl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim Step 4: Installing Plug-ins In your init.vim file, add these lines at the bottom of what we previously wrote.\ncall plug#begin() call plug#end() We will be able to add plugins in between the two commands.\nNow we will add our first plug-in\nFind the desireable plug-ins from VIM Awesome this is one of the best places to find vim and neovim plugins.\nFor this tutorial we will add couple of plug-ins to make our neovim look good and work like an ide.\nPlug 'tpope/vim-fugitive' \" Git integration in to nvim Plug 'Yggdroot/indentLine' \" Line Indentations Plug 'farmergreg/vim-lastplace' \" Continue from where you left last time Plug 'raimondi/delimitmate' \" Provides insert mode auto-completion for special-characters Plug 'tpope/vim-markdown' \" Markdown runtime files Plug 'tpope/vim-surround' \" Change paranthesis and quotes into other forms quickly Plug 'scrooloose/nerdtree' \" File navigator Plug 'vim-scripts/indentpython.vim' \" Indentation script for python Plug 'alvan/vim-closetag' \" Makes a close tag for html quickly Plug 'luochen1990/rainbow' \" Provides different colors to different paranthesis Plug 'airblade/vim-gitgutter' \" Shows git diffs in the sign columns Plug 'lilydjwg/colorizer' \" Provides color for the #rrggbb or #rgb color format in files Plug 'vim-airline/vim-airline' \" Powerline Theme / Status line Plug 'vim-airline/vim-airline-themes' \" Themes for vim-airline Plug 'rafi/awesome-vim-colorschemes' \" Change colorschemes on the fly for vim and nvim Plug 'ryanoasis/vim-devicons' \" Icons Plug 'SirVer/ultisnips' \" Code completion using snippets from vim-snippets and custom snippets Plug 'honza/vim-snippets' \" Provides snippets for ultisnips First of all add few keybinding to open up NERDTree and make vertical and horizontal splits in your init.nvim.\nnnoremap \u003cC-f\u003e :NERDTreeFocus\u003cCR\u003e nnoremap \u003cC-n\u003e :NERDTree\u003cCR\u003e nnoremap \u003cC-t\u003e :NERDTreeToggle\u003cCR\u003e nnoremap \u003cA-h\u003e :vsplit\u003cCR\u003e nnoremap \u003cA-k\u003e :split\u003cCR\u003e After you’ve saved and exited the file now open up neovim run :PlugInstall. This will install all the plugins in the plugged directory in .local/share/nvim/plugged/.\nSince we installed vim airline and vim colorschemes we can change the look and feel of neovim/vim. Find your favorite vim colorscheme here also find your favorite airline theme here\nFor this blog, we will use the gruvbox theme along with the base16 airline theme. To make this permanent write these in your nvim config.\ncolorscheme gruvbox let g:airline_left_sep = '' let g:airline_left_alt_sep = '' let g:airline_right_sep = '' let g:airline_right_alt_sep = '' let g:airline_theme='base16' Since we also have a plugin for autoindentation and indent lines. We have to add these lines to the config too.\nlet g:indentLine_fileTypeExclude = [\"help\", \"nerdtree\", \"diff\"] let g:indentLine_fileTypeExclude = [\"help\", \"nerdtree\", \"diff\", \"markdown\"] let g:indentLine_bufTypeExclude = [\"help\", \"terminal\"] let g:indentLine_showFirstIndentLevel = 1 let g:indentLine_indentLevel = 7 let g:indentLine_char_list = ['|', '¦', '┆', '┊'] (OPTIONAL)Adding Code-suggestions This section is a bit tidious and is only available for neovim users so if you use vim this section is irrelevnet to you.\nAdd this plug-in in your init.vim file.\nPlug 'neoclide/coc.nvim' \" Code suggestions and completion Now this plugin wont run without nodejs in your machine so follow these steps to make it work.\nInstall Nodejs and npm\nDebian\napt install nodejs npm Arch\npacman -S nodejs npm Gentoo\nemerge nodejs OpenBSD\npkg_add node Void\nxbps-install nodejs For Other Distos and operating systems visit https://nodejs.org/en/download/package-manager/\nAdditional Packages Install yarn\nnpm install yarn After yarn is finished installing, execute the following command\ncd ~/.local/share/nvim/plugged/coc.nvim/ yarn install yarn build Now open up an nvim install and check if any error is shown, if not then it is successfully installed. Otherwise check online for errors.\nFrom here on out check this github repository to find your desired language to use and ways to download the language server. This is a bit tidious process but here is one example.\n(EXAMPLE)Installing the python language server Install python3 and python3-pip Install jedi from the pip repository pip install jedi Open up and nvim instance and run :CocInstall coc-python this will install the python module for Coc. Follow this type of procedure to install all of your favorite language servers and have fun coding\nHope, this was helpfull to your if so them be sure to help me by either sharing or donating :)\n",
+  "wordCount" : "1029",
   "inLanguage": "en",
   "image":"https://iamb4uc.xyz/img/neovim.png","datePublished": "2022-07-03T08:48:38+05:30",
   "dateModified": "2022-07-03T08:48:38+05:30",
@@ -190,11 +190,6 @@
                     <span>About</span>
                 </a>
             </li>
-            <li>
-                <a href="https://iamb4uc.xyz/donate" title="Donate">
-                    <span>Donate</span>
-                </a>
-            </li>
         </ul>
     </nav>
 </header>
@@ -206,23 +201,27 @@
     <h1 class="post-title">
       Neovim Customization
     </h1>
-    <div class="post-meta"><span title='2022-07-03 08:48:38 +0530 IST'>July 3, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;89 words&nbsp;·&nbsp;Me
+    <div class="post-meta"><span title='2022-07-03 08:48:38 +0530 IST'>July 3, 2022</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;1029 words&nbsp;·&nbsp;Me
 
 </div>
   </header> 
 <figure class="entry-cover"><img loading="lazy" src="https://iamb4uc.xyz/img/neovim.png" alt="This is a post image">
-        <p>How my vim looks</p>
+        <p>A Basic Minimal Neovim Configuration</p>
 </figure><div class="toc">
-    <details >
+    <details  open>
         <summary accesskey="c" title="(Alt + C)">
             <span class="details">Table of Contents</span>
         </summary>
 
         <div class="inner"><nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#step-1-setting-up-the-config-files-and-directory-for-vim-and-neovim">Step 1: Setting up the config files and directory for vim and neovim</a></li>
+    <li><a href="#step-2-editing-the-initvim-file">Step 2: Editing the init.vim file</a></li>
+    <li><a href="#step-3-adding-a-plug-in-manager">Step 3: Adding a Plug-In Manager</a></li>
+    <li><a href="#step-4-installing-plug-ins">Step 4: Installing Plug-ins</a></li>
+    <li><a href="#optionaladding-code-suggestions">(OPTIONAL)Adding Code-suggestions</a>
       <ul>
-        <li><a href="#why-use-vim-over-other-text-editors-and-ides">Why use vim over other text editors and IDEs?</a></li>
+        <li><a href="#exampleinstalling-the-python-language-server">(EXAMPLE)Installing the python language server</a></li>
       </ul>
     </li>
   </ul>
@@ -231,17 +230,154 @@
     </details>
 </div>
 
-  <div class="post-content"><h3 id="why-use-vim-over-other-text-editors-and-ides">Why use vim over other text editors and IDEs?<a hidden class="anchor" aria-hidden="true" href="#why-use-vim-over-other-text-editors-and-ides">#</a></h3>
+  <div class="post-content"><h1 id="why-use-vim-and-neovim-over-other-text-editors-and-ides">Why use vim and neovim over other text editors and IDEs?<a hidden class="anchor" aria-hidden="true" href="#why-use-vim-and-neovim-over-other-text-editors-and-ides">#</a></h1>
+<blockquote>
 <p>For me, I&rsquo;ve always loved minimalism and performance over ease of use and other flashy bloat no one really uses and cares about. This why I personally use Terminal-based text editors. Preferably VIM or NeoVIM. Tho I currently, am running NeoVIM, but both of them are basically the same. NeoVIM is a little bit more extensible than VIM and easy to manage imo. But enough talking, lets start configuring our VIM/NVIM to make it more like an actual developing environment.</p>
+</blockquote>
+<p><strong>IMPORTANT:</strong> Since I mainly use Neovim, some of the stuff written in this blog might not work for vim users, for them just avoid the once that are not compatible, if I find any alternatives to those plugins and setting, I will update the blogs with the details.</p>
+<h2 id="step-1-setting-up-the-config-files-and-directory-for-vim-and-neovim">Step 1: Setting up the config files and directory for vim and neovim<a hidden class="anchor" aria-hidden="true" href="#step-1-setting-up-the-config-files-and-directory-for-vim-and-neovim">#</a></h2>
+<p>Follow the commands given below to make all the necessary files and directories for neovim</p>
+<pre tabindex="0"><code>cd
+mkdir -p ~/.config/nvim
+touch ~/.config/nvim/init.vim
+</code></pre><p>The <strong>init.vim</strong> file is the config file that we will edit in this post to make our base neovim to look and act like an actual IDE.</p>
+<h2 id="step-2-editing-the-initvim-file">Step 2: Editing the init.vim file<a hidden class="anchor" aria-hidden="true" href="#step-2-editing-the-initvim-file">#</a></h2>
+<p>To edit this <strong>init.vim</strong> open the file with the text editor of your choice and paste the following text</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span>:<span style="color:#a6e22e">set</span> <span style="color:#a6e22e">number</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>:<span style="color:#a6e22e">set</span> <span style="color:#a6e22e">relativenumber</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>:<span style="color:#a6e22e">set</span> <span style="color:#a6e22e">autoindent</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>:<span style="color:#a6e22e">set</span> <span style="color:#a6e22e">expandtab</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>:<span style="color:#a6e22e">set</span> <span style="color:#a6e22e">tabstop</span> = <span style="color:#ae81ff">4</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>:<span style="color:#a6e22e">set</span> <span style="color:#a6e22e">shiftwidth</span> = <span style="color:#ae81ff">4</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>:<span style="color:#a6e22e">set</span> <span style="color:#a6e22e">smarttab</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>:<span style="color:#a6e22e">set</span> <span style="color:#a6e22e">softtabstop</span> = <span style="color:#ae81ff">4</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><p>These parameters set basic functionality for vim such as number lines, auto indentation, amd smart tabs. By default vim doesnt support mouse and its kinda normal to not use mouse since everything in vim can be done using the keyboard but if you are a soy and want to use mouse type this this too</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span>:<span style="color:#a6e22e">set</span> <span style="color:#a6e22e">mouse</span> = <span style="color:#a6e22e">a</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><p>For now we have done all the basic settings.</p>
+<h2 id="step-3-adding-a-plug-in-manager">Step 3: Adding a Plug-In Manager<a hidden class="anchor" aria-hidden="true" href="#step-3-adding-a-plug-in-manager">#</a></h2>
+<p>For this setup we will use Vim-Plug to manage our plugins.</p>
+<ol>
+<li>
+<p>Install Curl<br>
+<strong>Debian-based</strong></p>
+<pre tabindex="0"><code>apt install curl
+</code></pre><p><strong>Gentoo</strong></p>
+<pre tabindex="0"><code>emerge curl
+</code></pre><p><strong>OpenBSD</strong></p>
+<pre tabindex="0"><code>pkg_add curl
+</code></pre><p><strong>Arch-based</strong></p>
+<pre tabindex="0"><code>pacman -S curl
+</code></pre><p><strong>Void</strong></p>
+<pre tabindex="0"><code>xbps-install -S curl
+</code></pre></li>
+<li>
+<p>Create the installation directories, download, and install Vim-Plug.</p>
+</li>
+</ol>
+<pre tabindex="0"><code> curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+</code></pre><h2 id="step-4-installing-plug-ins">Step 4: Installing Plug-ins<a hidden class="anchor" aria-hidden="true" href="#step-4-installing-plug-ins">#</a></h2>
+<p>In your init.vim file, add these lines at the bottom of what we previously wrote.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#a6e22e">call</span> <span style="color:#a6e22e">plug</span>#<span style="color:#a6e22e">begin</span>()<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">call</span> <span style="color:#a6e22e">plug</span>#<span style="color:#a6e22e">end</span>()<span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><p>We will be able to add plugins in between the two commands.</p>
+<p>Now we will add our first plug-in</p>
+<p>Find the desireable plug-ins from <a href="https://vimawesome.com/">VIM Awesome</a> this is one of the best places to find vim and neovim plugins.<br>
+For this tutorial we will add couple of plug-ins to make our neovim look good and work like an ide.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;tpope/vim-fugitive&#39;</span>                   <span style="color:#75715e">&#34; Git integration in to nvim</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;Yggdroot/indentLine&#39;</span>                  <span style="color:#75715e">&#34; Line Indentations</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;farmergreg/vim-lastplace&#39;</span>             <span style="color:#75715e">&#34; Continue from where you left last time</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;raimondi/delimitmate&#39;</span>                 <span style="color:#75715e">&#34; Provides insert mode auto-completion for special-characters</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;tpope/vim-markdown&#39;</span>                   <span style="color:#75715e">&#34; Markdown runtime files</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;tpope/vim-surround&#39;</span>                   <span style="color:#75715e">&#34; Change paranthesis and quotes into other forms quickly</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;scrooloose/nerdtree&#39;</span>                  <span style="color:#75715e">&#34; File navigator</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;vim-scripts/indentpython.vim&#39;</span>         <span style="color:#75715e">&#34; Indentation script for python</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;alvan/vim-closetag&#39;</span>                   <span style="color:#75715e">&#34; Makes a close tag for html quickly</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;luochen1990/rainbow&#39;</span>                  <span style="color:#75715e">&#34; Provides different colors to different paranthesis</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;airblade/vim-gitgutter&#39;</span>               <span style="color:#75715e">&#34; Shows git diffs in the sign columns</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;lilydjwg/colorizer&#39;</span>                   <span style="color:#75715e">&#34; Provides color for the #rrggbb or #rgb color format in files</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;vim-airline/vim-airline&#39;</span>              <span style="color:#75715e">&#34; Powerline Theme / Status line</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;vim-airline/vim-airline-themes&#39;</span>       <span style="color:#75715e">&#34; Themes for vim-airline</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;rafi/awesome-vim-colorschemes&#39;</span>        <span style="color:#75715e">&#34; Change colorschemes on the fly for vim and nvim</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;ryanoasis/vim-devicons&#39;</span>               <span style="color:#75715e">&#34; Icons</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;SirVer/ultisnips&#39;</span>                     <span style="color:#75715e">&#34; Code completion using snippets from vim-snippets and custom snippets</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;honza/vim-snippets&#39;</span>                   <span style="color:#75715e">&#34; Provides snippets for ultisnips</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><p>First of all add few keybinding to open up NERDTree and make vertical and horizontal splits in your <code>init.nvim</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#a6e22e">nnoremap</span> &lt;<span style="color:#a6e22e">C</span>-<span style="color:#a6e22e">f</span>&gt; :<span style="color:#a6e22e">NERDTreeFocus</span>&lt;<span style="color:#a6e22e">CR</span>&gt;<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">nnoremap</span> &lt;<span style="color:#a6e22e">C</span>-<span style="color:#a6e22e">n</span>&gt; :<span style="color:#a6e22e">NERDTree</span>&lt;<span style="color:#a6e22e">CR</span>&gt;<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">nnoremap</span> &lt;<span style="color:#a6e22e">C</span>-<span style="color:#a6e22e">t</span>&gt; :<span style="color:#a6e22e">NERDTreeToggle</span>&lt;<span style="color:#a6e22e">CR</span>&gt;<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">nnoremap</span> &lt;<span style="color:#a6e22e">A</span>-<span style="color:#a6e22e">h</span>&gt; :<span style="color:#a6e22e">vsplit</span>&lt;<span style="color:#a6e22e">CR</span>&gt;<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#a6e22e">nnoremap</span> &lt;<span style="color:#a6e22e">A</span>-<span style="color:#a6e22e">k</span>&gt; :<span style="color:#a6e22e">split</span>&lt;<span style="color:#a6e22e">CR</span>&gt;<span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><p>After you&rsquo;ve saved and exited the file now open up neovim run <code>:PlugInstall</code>. This will install all the plugins in the plugged directory in <code>.local/share/nvim/plugged/</code>.</p>
+<p>Since we installed <code>vim airline</code> and <code>vim colorschemes</code> we can change the look and feel of neovim/vim. Find your favorite vim colorscheme <a href="https://github.com/rafi/awesome-vim-colorschemes">here</a> also find your favorite airline theme <a href="https://github.com/vim-airline/vim-airline-themes">here</a><br>
+For this blog, we will use the gruvbox theme along with the base16 airline theme. To make this permanent write these in your nvim config.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#a6e22e">colorscheme</span> <span style="color:#a6e22e">gruvbox</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">airline_left_sep</span> = <span style="color:#e6db74">&#39;&#39;</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">airline_left_alt_sep</span> = <span style="color:#e6db74">&#39;&#39;</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">airline_right_sep</span> = <span style="color:#e6db74">&#39;&#39;</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">airline_right_alt_sep</span> = <span style="color:#e6db74">&#39;&#39;</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">airline_theme</span>=<span style="color:#e6db74">&#39;base16&#39;</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><p>Since we also have a plugin for autoindentation and indent lines. We have to add these lines to the config too.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">indentLine_fileTypeExclude</span> = [<span style="color:#e6db74">&#34;help&#34;</span>, <span style="color:#e6db74">&#34;nerdtree&#34;</span>, <span style="color:#e6db74">&#34;diff&#34;</span>]<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">indentLine_fileTypeExclude</span> = [<span style="color:#e6db74">&#34;help&#34;</span>, <span style="color:#e6db74">&#34;nerdtree&#34;</span>, <span style="color:#e6db74">&#34;diff&#34;</span>, <span style="color:#e6db74">&#34;markdown&#34;</span>]<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">indentLine_bufTypeExclude</span> = [<span style="color:#e6db74">&#34;help&#34;</span>, <span style="color:#e6db74">&#34;terminal&#34;</span>]<span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">indentLine_showFirstIndentLevel</span> = <span style="color:#ae81ff">1</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">indentLine_indentLevel</span> = <span style="color:#ae81ff">7</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">g</span>:<span style="color:#a6e22e">indentLine_char_list</span> = [<span style="color:#e6db74">&#39;|&#39;</span>, <span style="color:#e6db74">&#39;¦&#39;</span>, <span style="color:#e6db74">&#39;┆&#39;</span>, <span style="color:#e6db74">&#39;┊&#39;</span>]<span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><h2 id="optionaladding-code-suggestions">(OPTIONAL)Adding Code-suggestions<a hidden class="anchor" aria-hidden="true" href="#optionaladding-code-suggestions">#</a></h2>
+<p>This section is a bit tidious and is only available for neovim users so if you use vim this section is irrelevnet to you.<br>
+Add this plug-in in your init.vim file.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vim" data-lang="vim"><span style="display:flex;"><span><span style="color:#a6e22e">Plug</span> <span style="color:#e6db74">&#39;neoclide/coc.nvim&#39;</span>                    <span style="color:#75715e">&#34; Code suggestions and completion</span><span style="color:#960050;background-color:#1e0010">
+</span></span></span></code></pre></div><p>Now this plugin wont run without nodejs in your machine so follow these steps to make it work.</p>
+<ol>
+<li>
+<p>Install Nodejs and npm</p>
+<p><strong>Debian</strong></p>
+<pre tabindex="0"><code>apt install nodejs npm
+</code></pre><p><strong>Arch</strong></p>
+<pre tabindex="0"><code>pacman -S nodejs npm
+</code></pre><p><strong>Gentoo</strong></p>
+<pre tabindex="0"><code>emerge nodejs
+</code></pre><p><strong>OpenBSD</strong></p>
+<pre tabindex="0"><code>pkg_add node
+</code></pre><p><strong>Void</strong></p>
+<pre tabindex="0"><code>xbps-install nodejs
+</code></pre><p><strong>For Other Distos and operating systems visit <a href="https://nodejs.org/en/download/package-manager/">https://nodejs.org/en/download/package-manager/</a></strong></p>
+</li>
+<li>
+<p>Additional Packages
+Install yarn</p>
+<pre tabindex="0"><code>npm install yarn
+</code></pre><p>After yarn is finished installing, execute the following command</p>
+<pre tabindex="0"><code>cd ~/.local/share/nvim/plugged/coc.nvim/
+yarn install
+yarn build
+</code></pre><p>Now open up an nvim install and check if any error is shown, if not then it is successfully installed. Otherwise check online for errors.</p>
+<p>From here on out check <a href="https://github.com/neoclide/coc.nvim/wiki">this github repository</a> to find your desired language to use and ways to download the language server. This is a bit tidious process but here is one example.</p>
+</li>
+</ol>
+<h3 id="exampleinstalling-the-python-language-server">(EXAMPLE)Installing the python language server<a hidden class="anchor" aria-hidden="true" href="#exampleinstalling-the-python-language-server">#</a></h3>
+<ol>
+<li>Install python3 and python3-pip</li>
+<li>Install jedi from the pip repository</li>
+</ol>
+<pre tabindex="0"><code>pip install jedi
+</code></pre><ol start="3">
+<li>Open up and nvim instance and run <code>:CocInstall coc-python</code> this will install the python module for Coc.</li>
+</ol>
+<p><strong>Follow this type of procedure to install all of your favorite language servers and have fun coding</strong><br>
+<strong>Hope, this was helpfull to your if so them be sure to help me by either sharing or donating :)</strong></p>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://iamb4uc.xyz/tags/vim/">vim</a></li>
+      <li><a href="https://iamb4uc.xyz/tags/neovim/">neovim</a></li>
       <li><a href="https://iamb4uc.xyz/tags/vi/">vi</a></li>
-      <li><a href="https://iamb4uc.xyz/tags/nvim/">nvim</a></li>
       <li><a href="https://iamb4uc.xyz/tags/ricing/">ricing</a></li>
       <li><a href="https://iamb4uc.xyz/tags/productivity/">productivity</a></li>
     </ul>
@@ -249,14 +385,14 @@
   <a class="prev" href="https://iamb4uc.xyz/posts/the-c-programming-language/">
     <span class="title">« Prev</span>
     <br>
-    <span>Book Review: The C Programming Language</span>
+    <span>BOOK REVIEW: The C Programming Language</span>
   </a>
 </nav>
 
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Neovim Customization on twitter"
-        href="https://twitter.com/intent/tweet/?text=Neovim%20Customization&amp;url=https%3a%2f%2fiamb4uc.xyz%2fposts%2fnvim-customization%2f&amp;hashtags=vim%2cvi%2cnvim%2cricing%2cproductivity">
+        href="https://twitter.com/intent/tweet/?text=Neovim%20Customization&amp;url=https%3a%2f%2fiamb4uc.xyz%2fposts%2fnvim-customization%2f&amp;hashtags=neovim%2cvi%2cricing%2cproductivity">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
@@ -274,20 +410,6 @@
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
-        </svg>
-    </a>
-    <a target="_blank" rel="noopener noreferrer" aria-label="share Neovim Customization on facebook"
-        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fiamb4uc.xyz%2fposts%2fnvim-customization%2f">
-        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
-            <path
-                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
-        </svg>
-    </a>
-    <a target="_blank" rel="noopener noreferrer" aria-label="share Neovim Customization on whatsapp"
-        href="https://api.whatsapp.com/send?text=Neovim%20Customization%20-%20https%3a%2f%2fiamb4uc.xyz%2fposts%2fnvim-customization%2f">
-        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
-            <path
-                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
         </svg>
     </a>
     <a target="_blank" rel="noopener noreferrer" aria-label="share Neovim Customization on telegram"
