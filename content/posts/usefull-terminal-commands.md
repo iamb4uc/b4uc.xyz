@@ -4,7 +4,7 @@ date: 2022-07-14T04:36:33+05:30
 tags: ["linux", "terminal", "unix", "posix-shell", "shell", "tips & tricks"] 
 author: "Me"
 showToc: true
-draft: false
+draft: true 
 description: "Some usefull terminal commands."
 ShowReadingTime: true
 ShowBreadCrumbs: true
