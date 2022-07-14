@@ -38,6 +38,7 @@ params:
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
+  ShowRssFeed: true
 
 
 menu:
