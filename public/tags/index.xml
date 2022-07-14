@@ -6,65 +6,56 @@
     <description>Recent content in Tags on B4UC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jul 2022 23:01:58 +0530</lastBuildDate><atom:link href="https://iamb4uc.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Jul 2022 04:36:33 +0530</lastBuildDate><atom:link href="https://iamb4uc.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Book Review</title>
-      <link>https://iamb4uc.xyz/tags/book-review/</link>
-      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
+      <title>linux</title>
+      <link>https://iamb4uc.xyz/tags/linux/</link>
+      <pubDate>Thu, 14 Jul 2022 04:36:33 +0530</pubDate>
       
-      <guid>https://iamb4uc.xyz/tags/book-review/</guid>
+      <guid>https://iamb4uc.xyz/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Books</title>
-      <link>https://iamb4uc.xyz/tags/books/</link>
-      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
+      <title>posix-shell</title>
+      <link>https://iamb4uc.xyz/tags/posix-shell/</link>
+      <pubDate>Thu, 14 Jul 2022 04:36:33 +0530</pubDate>
       
-      <guid>https://iamb4uc.xyz/tags/books/</guid>
+      <guid>https://iamb4uc.xyz/tags/posix-shell/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>C</title>
-      <link>https://iamb4uc.xyz/tags/c/</link>
-      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
+      <title>shell</title>
+      <link>https://iamb4uc.xyz/tags/shell/</link>
+      <pubDate>Thu, 14 Jul 2022 04:36:33 +0530</pubDate>
       
-      <guid>https://iamb4uc.xyz/tags/c/</guid>
+      <guid>https://iamb4uc.xyz/tags/shell/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Programming</title>
-      <link>https://iamb4uc.xyz/tags/programming/</link>
-      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
+      <title>terminal</title>
+      <link>https://iamb4uc.xyz/tags/terminal/</link>
+      <pubDate>Thu, 14 Jul 2022 04:36:33 +0530</pubDate>
       
-      <guid>https://iamb4uc.xyz/tags/programming/</guid>
+      <guid>https://iamb4uc.xyz/tags/terminal/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Review</title>
-      <link>https://iamb4uc.xyz/tags/review/</link>
-      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
+      <title>tips &amp; tricks</title>
+      <link>https://iamb4uc.xyz/tags/tips-tricks/</link>
+      <pubDate>Thu, 14 Jul 2022 04:36:33 +0530</pubDate>
       
-      <guid>https://iamb4uc.xyz/tags/review/</guid>
+      <guid>https://iamb4uc.xyz/tags/tips-tricks/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tech</title>
-      <link>https://iamb4uc.xyz/tags/tech/</link>
-      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
-      
-      <guid>https://iamb4uc.xyz/tags/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UNIX</title>
+      <title>unix</title>
       <link>https://iamb4uc.xyz/tags/unix/</link>
-      <pubDate>Sun, 03 Jul 2022 23:01:58 +0530</pubDate>
+      <pubDate>Thu, 14 Jul 2022 04:36:33 +0530</pubDate>
       
       <guid>https://iamb4uc.xyz/tags/unix/</guid>
       <description></description>
